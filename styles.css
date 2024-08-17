@@ -293,6 +293,12 @@ profile-photo .img{
   top: 0;
   background-color: #72fe00;  
 }
+.nitt-logo {
+  width: 30px; /* Adjust the width as needed */
+  height: auto;
+  vertical-align: middle; /* Align the logo with the text */
+  margin-right: 8px; /* Space between the logo and text */
+}
 .education-content .row .circle-dot{
   position: absolute;
   left: 0;

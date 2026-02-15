@@ -74,7 +74,7 @@ body{
 }
 
 .signature {
-  width: 100px; 
+  width: 200px; 
   height:large; 
   margin-right: 10px; 
 }
@@ -293,8 +293,8 @@ profile-photo .img{
   top: 0;
   background-color: #72fe00;  
 }
-.nitt-logo {
-  width: 30px; /* Adjust the width as needed */
+.novi-logo {
+  width: 50px; /* Adjust the width as needed */
   height: auto;
   vertical-align: middle; /* Align the logo with the text */
   margin-right: 8px; /* Space between the logo and text */
@@ -348,7 +348,7 @@ profile-photo .img{
 .projects{
   display: flex;
   justify-content:space-between;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
 }
 .project{
     /* padding: 30px 15px; */
@@ -362,7 +362,7 @@ profile-photo .img{
     flex-basis: 32%;
     transition: .3s;
 }
-.project i{
+.project a{
   background-color: #72fe00;
   width: 60px;
   height: 60px;
